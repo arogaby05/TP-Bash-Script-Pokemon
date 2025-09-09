@@ -11,7 +11,7 @@ fi
 mkdir -p "$directorio_entrada"
 ./parte_1.sh "$padron_entrada" "$directorio_entrada"
 
-if [ ! -f "$directorio_entrada"/resultado.txt" ]; then
+if [ ! -f "$directorio_entrada/resultado.txt" ]; then
    echo "No se encontró $directorio_entrada/resultado.txt"
    exit 1
 fi
