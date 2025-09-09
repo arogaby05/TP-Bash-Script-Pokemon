@@ -17,4 +17,3 @@ if [ ! -f "$directorio_entrada"/resultado.txt" ]
 fi
 
 ./parte_2.sh < "$directorio_resultado"/resultado.txt > "$directorio_entrada/output.txt"
-echo "Proceso terminado. Los resultados se encuentran en $directorio_entrada/output.txt"
