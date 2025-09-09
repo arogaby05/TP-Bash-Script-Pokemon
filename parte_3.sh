@@ -16,4 +16,4 @@ if [ ! -f "$directorio_entrada/resultado.txt" ]; then
    exit 1
 fi
 
-./parte_2.sh < "$directorio_entrada"/resultado.txt > "$directorio_entrada/output.txt"
+./parte_2.sh < "$directorio_entrada/resultado.txt" > "$directorio_entrada/output.txt"
